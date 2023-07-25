@@ -113,7 +113,7 @@ if [ "$init" != "skip" ]; then
     cd /content
     if [ ! -z ${git+x} ]; then
         if [ "$git" == "Official" ]; then
-            git=https://github.com/koboldai/KoboldAI-Client
+            git=https://github.com/0cc4m/KoboldAI
         fi
         if [ "$git" == "United" ]; then
             git=https://github.com/henk717/KoboldAI-Client
